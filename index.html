@@ -6,7 +6,7 @@
 </head>
 <body>
 
-<div id="menu"style="background-image: url('background.jpg');padding:25px;text-align:center; font-family:Calibri; font-size:20px; font-weight:bold">
+<div id="menu">
 <br/><br/><br/>
 <li><a href="#about">About Me</a></li>
 <li><a href="#photos">My Photos</a></li>
@@ -17,20 +17,17 @@
 <li><a href="#contact">Contact Me</a></li>
 <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
 </div>
-<!-- how to make my menue bar fixed?	   -->
 
 
-<section id="title" class="title" > 
-  <div class="imgtitle">
-<img src="title-removebg-preview.png"  width="880" height="160"alt="title"  >
-<div class="imgtitle"></div>
-</section
->
+
+<section id="title" class="title" > </section>
+
+<h1><a href="#0">Pnina & Arie Wasserman</a></h1>
 
 
 <section id="about" class="section"style="background-image: url('background.jpg')"> 
 <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
-<img src="about-removebg-preview (1).png" width="880" height="500"alt="about" onclick="myFunction(this);" >
+<img src="about-removebg-preview (1).png" width="760" height="500"alt="about" onclick="myFunction(this);" >
 <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
 </section>
 
@@ -89,7 +86,7 @@
  </div><br/><br/><br/><br/><br/><br/><br/><br/><br/> 
 
 </div><br/><br/><br/><br/><br/><br/><br/><br/><br/> 
-</div><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+
 <div class="playlist">
   <img src="playlist-removebg-preview.png"  width="750" height="130"  >
 <div class="playlist"></div>
@@ -141,8 +138,11 @@ title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; cli
 <br/>
 <br/>
 <br/>
-<br/>
-scan my code
+<div class="Q&A">
+  <img src="scan.png"  width="300" height="300"  >
+  <br/>
+
+<div class="Q&A"></div>
 <br/>
 <br/>
 <br/>
@@ -159,12 +159,7 @@ scan my code
 <br/>
 <br/>
 <br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
+
 <div class="Q&A">
   <img src="Q_A1-removebg-preview.png"  width="750" height="500"  >
   <br/>
@@ -212,19 +207,17 @@ scan my code
     <span class="close">&times;</span>
     <p>Fill in the message details and we will get back to you soon!</p>
     <form>
-        <label for="fname">Full name:</label><br>
-        <input type="text" id="fname" name="fname"><br>
-        <label for="email">Email:</label><br>
-        <input type="text" id="email" name="email"><br>
-        <label for="msg">Message:</label><br>
-        <input type="msg" id="msg" name="msg"><br><br>
-        <button id="btnMSG">Send</button>
-    
-        <!-- adding an emojie -->
-        <script src="https://rawgit.com/theraot/emoji/master/emoji.js" charset="utf-8"></script>
-        <select id ="target"><select>
-
-      </form>
+       
+<form action="mailto:someone@example.com" method="post" enctype="text/plain">
+  Name:<br>
+  <input type="text" name="name"><br>
+  E-mail:<br>
+  <input type="text" name="mail"><br>
+  Comment:<br>
+  <input type="text" name="comment" size="50"><br><br>
+  <input type="submit" value="Send">
+  <input type="reset" value="Reset">
+  </form>
     
   </div>
 
@@ -318,3 +311,58 @@ $(function(){
  </script>
 </body>
 </html>
+
+
+<!-- <label for="emoji">Add Emoji To Message:</label>
+<select onchange="addEmoji()" id="emoji">
+  <option id="0" value="">-</option>
+  <option id="1" value="&#127800;">&#127800;</option>
+  <option id="2" value="&#128149;">&#128149;</option>
+  <option id="3" value="&#128544;">&#128544;</option>
+  <option id="4" value="&#128578;">&#128578;</option>
+  <option id="5" value="&#128525;">&#128525;</option>
+  <option id="6" value="&#128139;">&#128139;</option>
+</select>
+ -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
