@@ -171,6 +171,9 @@ li {
   }*/
   
   /* Closable button inside the image */
+ 
+
+
   .closebtn {
 	position: absolute;
 	top: 10px;
@@ -180,8 +183,10 @@ li {
 	cursor: pointer;
   }
 
-  /* animation */
 
+
+  /* animation */
+ 
 
 h1 {
   text-align: center;
