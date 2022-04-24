@@ -3,8 +3,8 @@
 # Website for the elderly
 I my site, I put a lot of emphasis on website design and incorporating special elements such as:
 * Animation in the site title
-* I designed the backgrounds and titles in Photoshop and procreate
-* For the email sending form I saw fit to have a button that links in favor of the action and that the form would not simply be displayed as part of the site.
+* All the titles and backgrounds images designed in Photoshop and Procreate.
+* For sending an email, I added a button that links to the form. Because it would have seemed to me a more correct structure..
 
 Identity card: 314047101
 URL: https://web-development-environments-2022.github.io/314047101/
