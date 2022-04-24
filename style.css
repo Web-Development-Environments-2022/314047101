@@ -207,18 +207,20 @@ h1::before {
   left: 50%;
   top: -50px;
   width: 600px;
-  margin-left: -300px;
+  margin-left: -100px;
   margin-top: -220px;
   height: 600px;
   background: radial-gradient(ellipse closest-side, rgb(252, 242, 156), rgb(255, 234, 142));
   z-index: -1;
 }
 h1 a {
-  padding: 20px;
+  padding: 10px;
   text-decoration: none;
   letter-spacing: 30px;
   color: rgb(234, 224, 145);
-  animation: comein 5s 1 ease-in-out forwards;
+  animation: comein 5s 1 ease-in-out forwards ;
+  animation-iteration-count: infinite;;
+
 }
 
 @keyframes comein {
