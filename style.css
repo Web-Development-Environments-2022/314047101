@@ -3,14 +3,132 @@ body{
   background-image: url("background.jpg");
 
 }
+
+nav {
+  margin: 27px auto 0;
+  position: relative;
+  width: 1000px;
+  height: 50px;
+  background-color: #cab65b;
+  border-radius: 8px;
+  z-index: 1;
+  text-align: center;
+  
+}
+nav a {
+  float: left;
+  padding: 12px;
+  color: white;
+  font-size: 15px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  width: 28%;
+  line-height: 23px;
+  height: 100%;
+
+  display:inline;
+  position: relative;
+  z-index: 1;
+  text-decoration: none;
+  text-transform: uppercase;
+  text-align: center;
+
+  cursor: pointer;
+}
+nav .animation {
+  position: absolute;
+  height: 100%;
+  top: 0;
+  z-index: 0;
+  transition: all .5s ease 0s;
+  border-radius: 8px;
+}
+a:nth-child(1) {
+  width: 100px;
+}
+a:nth-child(2) {
+  width: 110px;
+}
+a:nth-child(3) {
+  width: 100px;
+}
+a:nth-child(4) {
+  width: 160px;
+}
+a:nth-child(5) {
+  width: 120px;
+}
+a:nth-child(6) {
+  width: 120px;
+}
+a:nth-child(7) {
+  width: 120px;
+}
+nav .start-home, a:nth-child(1):hover~.animation {
+  width: 120px;
+  left: 0;
+  background-color: #ddc267;
+}
+nav .start-about, a:nth-child(2):hover~.animation {
+  width: 135px;
+  left: 120px;
+  background-color: #ddc267;
+}
+nav .start-blog, a:nth-child(3):hover~.animation {
+  width: 135px;
+  left: 255px;
+  background-color: #ddc267;
+}
+nav .start-portefolio, a:nth-child(4):hover~.animation {
+  width: 155px;
+  left: 390px;
+  background-color: #ddc267;
+}
+nav .start-contact, a:nth-child(5):hover~.animation {
+  width: 160px;
+  left: 545px;
+  background-color: #ddc267;
+}
+nav .start-contact, a:nth-child(6):hover~.animation {
+  width: 150px;
+  left: 705px;
+  background-color: #ddc267;
+}
+nav .start-contact, a:nth-child(7):hover~.animation {
+  width: 145px;
+  left: 855px;
+  background-color: #ddc267;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 #menu
 {
 	position:fixed;
 	width: 100%;
 	height: 25px;
   color: white;
+  z-index: 1;
+  margin: 27px auto 0;
+
 
 }
+
 
 li {
     display:inline;
@@ -23,7 +141,7 @@ li {
     font-size: larger;
     font-style: bold;
     
-    
+   
 }
 .title {
     width: 100%;
@@ -31,9 +149,6 @@ li {
     padding: 10px 40px;
     background-image: url("background.jpg");
 }
-
-
-
 
 
 
@@ -189,6 +304,12 @@ h1 {
   width: 100%;
   background: linear-gradient(to right, rgb(255, 247, 213), rgb(248, 238, 148),);
   white-space: nowrap;
+  text-align: center;
+  margin: 40px 0 40px;
+  text-align: center;
+  color: #ecf0f1;
+  text-shadow: 2px 2px 4px #000000;
+
 }
 h1::before {
   content: "";
@@ -208,7 +329,7 @@ h1 a {
   letter-spacing: 30px;
   color: rgb(234, 224, 145);
   animation: comein 5s 1 ease-in-out forwards ;
-  animation-iteration-count: infinite;;
+  
 
 }
 

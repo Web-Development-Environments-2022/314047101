@@ -1,41 +1,46 @@
 <!DOCTYPE html>
 <html>
+  <head>
   <title> The Wasserman's</title>
-<head>
+
 <link rel="stylesheet" type="text/css" href="style.css" />
 </head>
 <body>
 
 <div id="menu">
-<br/><br/><br/>
-<li><a href="#about">About Me</a></li>
-<li><a href="#photos">My Photos</a></li>
-<li><a href="#playlist">My Playlist</a></li>
-<li><a href="#like">Like</a></li>
-<li><a href="#qrcoder">QR code</a></li>
-<li><a href="#spa">Q&A</a></li>
-<li><a href="#contact">Contact Me</a></li>
-<br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+
+  <nav>
+    <a href="#about">About Me</a>
+    <a href="#photos">My Photos</a>
+    <a href="#playlist">My Playlist</a>
+    <a href="#like">Like</a>
+    <a href="#qrcoder">QR code</a>
+    <a href="#spa">Q&A</a>
+    <a href="#contact">Contact Me</a>
+    <div class="animation start-home"></div>
+  </nav>
+
+
+
 </div>
 
 
 
+
+  <!-- title -->
 <section id="title" class="title" > </section>
-
 <h1><a href="#0">Pnina & Arie Wasserman</a></h1>
-
-
 <section id="about" class="section"style="background-image: url('background.jpg')"> 
 <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
 <img src="about-removebg-preview (1).png" width="760" height="500"alt="about" onclick="myFunction(this);" >
 <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
 </section>
 
-<section id="photos" class="section"style="background-image: url('background.jpg')">
-  <!-- photo gallery -->
-  
- <br/><br/><br/><br/><br/><br/>
 
+
+ <!-- photo gallery -->
+<section id="photos" class="section"style="background-image: url('background.jpg')">
+ <br/><br/><br/><br/><br/><br/>
   <div class="row">
     <div class="column">
       <img src="saba&tree.JPG" width="100" height="140"alt="Saba and tree" onclick="myFunction(this);" >
@@ -54,18 +59,11 @@
     </div>  
     <div class="column">
       <img src="plaingwithSavta.JPG" width="170" height="140" alt="Spending time with Savta" onclick="myFunction(this);">
-    </div>
-    
+    </div> 
     <div class="gallery">
       <img src="galleryClick.png"  width="300" height="130"  >
-
-    <div class="gal"></div>
+   </div>
   </div>
- 
-
-
-
- 
  
   <!-- The expanding image container -->
   <div class="container">
@@ -81,12 +79,13 @@
 </section>
 
 
+
+
+ <!-- Playlist -->
+
 <section id="playlist" class="section"style="background-image: url('background.jpg')">
-</div><br/>
- </div><br/><br/><br/><br/><br/><br/><br/><br/><br/> 
-
-</div><br/><br/><br/><br/><br/><br/><br/><br/><br/> 
-
+ <br/><br/><br/><br/><br/><br/><br/><br/><br/> 
+<br/><br/><br/><br/><br/><br/><br/><br/><br/> 
 <div class="playlist">
   <img src="playlist-removebg-preview.png"  width="750" height="130"  >
 <div class="playlist"></div>
@@ -94,17 +93,17 @@
 title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </section>
 
+
+ <!-- Like -->
+
 <section id="like" class="section"style="background-image: url('background.jpg')">
   <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
 <div class="like">
   <img src="letusknow-removebg-preview.png"  width="300" height="130"  >
-<div class="gal"></div>
 <div id="fb-root"></div>
 <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v13.0" nonce="44WqNBKX"></script>
 <div class="fb-like" data-href="https://developers.facebook.com/docs/plugins/" data-width="" data-layout="button" data-action="like" data-size="large" data-share="false"></div>
-<br/>
-<br/>
-<br/>
+<br/><br/><br/>
 </section>
 
 <section id="qrcoder" class="section"style="background-image: url('background.jpg')">
@@ -154,7 +153,7 @@ title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; cli
   <!-- Modal content -->
   <div class="modal-content" style="background-color: rgb(248, 249, 227); font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">
     <span class="close">&times;</span>
-    <p> Fill in the message details and we will get back to you soon!</p>
+    <p> Fill in the details and click Submit!</p>
     <form>
        
           <label for="name">Full Name:</label>
